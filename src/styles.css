@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: "Arima", system-ui;
+}
+#about {
+    position: fixed;
+    top: -30rem; /* Ajusta su posición desde la parte superior de la ventana */
+    left: 0;
+    width: 100%; /* Para que mantenga su tamaño completo */
+    z-index: 9999;
+  }
+.txtTitle{
+    color: white;
+}
+.rounded-image {
+    width: 200px; /* Ajusta el tamaño según lo necesites */
+    height: 200px; /* Asegúrate de que sea igual al ancho para un círculo perfecto */
+    border-radius: 50%; /* Esto redondea completamente los bordes */
+    object-fit: cover; /* Ajusta la imagen para que no se deforme */
+    border: 3px solid #ccc; /* Opcional: un borde alrededor de la imagen */
+  }
+
+body{
+    background-color: rgb(18, 19, 22);
+    color: #ccc;
+}
+.bg-color{
+    background-color: rgb(25, 26, 30);
+    color: #ccc;
+}
+
+.style-card{
+border-radius: 16px;
+background-color: #191a1d;
+padding: 2rem;
+}
+.style-card i {
+    font-size: 4rem;
+}
